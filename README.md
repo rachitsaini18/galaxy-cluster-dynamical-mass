@@ -115,7 +115,7 @@ This project uses representative/assumed values for velocity dispersion and clus
 ## Author
 
 **Rachit Saini**
-- Department of Electrical & Instrumentation Engineering, Thapar Institute of Engineering & Technology.
+Department of Electrical & Instrumentation Engineering, Thapar Institute of Engineering & Technology.
 
 ## License
 
