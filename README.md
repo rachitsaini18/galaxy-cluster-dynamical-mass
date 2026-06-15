@@ -21,7 +21,7 @@ A small astrophysics project demonstrating how the **virial theorem** can be use
 
 ## Background
 
-Galaxy clusters are the largest gravitationally bound structures in the universe, and their total mass is dominated by dark matter rather than the visible galaxies and gas within them. Because this mass can't be measured directly, astronomers rely on indirect methods — one of the most fundamental being **dynamical mass estimation** via the virial theorem, which relates a system's total mass to the motions of its constituent galaxies.
+Galaxy clusters are the largest gravitationally bound structures in the universe, and their total mass is dominated by dark matter rather than the visible. .\galaxies and gas within them. Because this mass can't be measured directly, astronomers rely on indirect methods — one of the most fundamental being **dynamical mass estimation** via the virial theorem, which relates a system's total mass to the motions of its constituent galaxies.
 
 Estimating cluster mass this way is a key step in studying large-scale structure formation, calibrating cosmological parameters, and probing the distribution of dark matter.
 
@@ -29,18 +29,18 @@ Estimating cluster mass this way is a key step in studying large-scale structure
 
 The goal of this project is to estimate the dynamical mass of a galaxy cluster using a simplified observational workflow:
 
-- Inspect a FITS (Flexible Image Transport System) file containing cluster imaging data
-- Estimate the velocity dispersion (σ) of galaxies within the cluster
-- Apply the virial theorem to compute the cluster's dynamical mass
+- Inspect a FITS (Flexible Image Transport System) file containing cluster imaging data.
+- Estimate the velocity dispersion (σ) of galaxies within the cluster.
+- Apply the virial theorem to compute the cluster's dynamical mass.
 
 ## Methodology
 
 The general workflow follows these steps:
 
-1. **Read observational data** from a FITS file using Astropy
-2. **Interpret intensity/spectral features** of the cluster image using Astropy and Matplotlib
-3. **Estimate the velocity dispersion (σ)** of galaxies in the cluster
-4. **Assume a characteristic cluster radius (R)**, based on the imaging scale
+1. **Read observational data** from a FITS file using Astropy.
+2. **Interpret intensity/spectral features** of the cluster image using Astropy and Matplotlib.
+3. **Estimate the velocity dispersion (σ)** of galaxies in the cluster.
+4. **Assume a characteristic cluster radius (R)**, based on the imaging scale.
 5. **Apply the virial theorem** to compute the dynamical mass:
 
 $$
@@ -94,16 +94,16 @@ This is consistent with the mass scale of a large galaxy cluster — on the orde
    python src/dynamical_mass.py
    ```
 4. Outputs:
-   - `figures/simulated_galaxy_cluster.png` — visualization of the cluster light profile
-   - `results/dynamical_mass_result.txt` — computed dynamical mass and input parameters
+   - `figures/simulated_galaxy_cluster.png` — visualization of the cluster light profile.
+   - `results/dynamical_mass_result.txt` — computed dynamical mass and input parameters.
 
 ## Limitations & Future Work
 
 This project uses representative/assumed values for velocity dispersion and cluster radius rather than values derived directly from observational spectra, due to the technical scope of the exercise. Natural extensions include:
 
-- Deriving the cluster radius from redshift and angular size, rather than assuming a fixed value
-- Estimating velocity dispersion directly from spectral line broadening in real observational data (e.g. SDSS or MaNGA spectra)
-- Extending to 3D modeling using Integral Field Spectroscopy (IFS) data cubes for a more complete dynamical picture
+- Deriving the cluster radius from redshift and angular size, rather than assuming a fixed value.
+- Estimating velocity dispersion directly from spectral line broadening in real observational data (e.g. SDSS or MaNGA spectra).
+- Extending to 3D modeling using Integral Field Spectroscopy (IFS) data cubes for a more complete dynamical picture.
 
 ## References
 
@@ -115,8 +115,7 @@ This project uses representative/assumed values for velocity dispersion and clus
 ## Author
 
 **Rachit Saini**
-Department of Electrical & Instrumentation Engineering, Thapar Institute of Engineering & Technology, Patiala
-ISA Summer School 2025 — Astronomy & Astrophysics
+Department of Electrical & Instrumentation Engineering, Thapar Institute of Engineering & Technology.
 
 ## License
 
