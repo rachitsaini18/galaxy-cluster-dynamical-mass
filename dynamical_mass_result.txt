@@ -1,0 +1,2 @@
+Estimated Dynamical Mass: 6.98e+14 M_sun
+Using sigma = 1000 km/s, R = 1000 kpc, G = 4.3e-06 kpc*(km/s)^2/M_sun
