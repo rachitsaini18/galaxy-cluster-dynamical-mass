@@ -11,7 +11,6 @@ A small astrophysics project demonstrating how the **virial theorem** can be use
 - [Methodology](#methodology)
 - [Code Overview](#code-overview)
 - [Result](#result)
-- [Repository Structure](#repository-structure)
 - [Running the Code](#running-the-code)
 - [Limitations & Future Work](#limitations--future-work)
 - [References](#references)
@@ -82,20 +81,6 @@ This is consistent with the mass scale of a large galaxy cluster — on the orde
 
 ![Simulated galaxy cluster](figures/simulated_galaxy_cluster.png)
 *Simulated 2D Gaussian light profile representing a galaxy cluster, used for visualization in place of direct FITS imaging.*
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── requirements.txt
-├── src/
-│   └── dynamical_mass.py        # Main analysis script
-├── figures/
-│   └── simulated_galaxy_cluster.png
-└── results/
-    └── dynamical_mass_result.txt
-```
 
 ## Running the Code
 
